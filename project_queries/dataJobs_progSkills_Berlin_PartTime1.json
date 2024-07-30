@@ -1,0 +1,617 @@
+[
+  {
+    "company": "]init[ AG",
+    "link": null,
+    "n_o_jobs": "5"
+  },
+  {
+    "company": "50Hertz Transmission GmbH",
+    "link": "http://www.50hertz.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Adevinta",
+    "link": "http://www.adevinta.com/",
+    "n_o_jobs": "7"
+  },
+  {
+    "company": "Advantest Europe GmbH",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Akelius Languages Online gGmbH",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Amazon",
+    "link": "http://www.amazon.com/",
+    "n_o_jobs": "10"
+  },
+  {
+    "company": "Audible GmbH",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "auticon",
+    "link": "http://www.auticon.de/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "AUTO1 Group",
+    "link": "http://www.auto1-group.com/",
+    "n_o_jobs": "7"
+  },
+  {
+    "company": "AVIV Group",
+    "link": "http://www.axelspringer.com/",
+    "n_o_jobs": "10"
+  },
+  {
+    "company": "Axel Springer Corporate Solutions",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Axel Springer National Media & Tech GmbH & Co. KG",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Axel Springer News Media National",
+    "link": "http://www.axelspringer.com/",
+    "n_o_jobs": "21"
+  },
+  {
+    "company": "Back Market",
+    "link": "http://www.backmarket.com/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "BearingPoint",
+    "link": "http://www.bearingpoint.com/en/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Berliner Verwaltung",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Berliner Wasserbetriebe",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Berylls",
+    "link": "http://www.berylls.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "BIOTRONIK SE & Co. KG",
+    "link": "http://www.biotronik.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "BTC Business Technology Consulting AG",
+    "link": "http://www.btc-ag.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Bundesnachrichtendienst",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Bundesrechnungshof",
+    "link": null,
+    "n_o_jobs": "11"
+  },
+  {
+    "company": "Caspar Health",
+    "link": "http://caspar-health.com/",
+    "n_o_jobs": "10"
+  },
+  {
+    "company": "charlesundcharlottegmbh",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "cimt ag",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Cintellic GmbH",
+    "link": "http://www.cintellic.com/",
+    "n_o_jobs": "12"
+  },
+  {
+    "company": "Clue",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Convex Energy",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Cornelsen Verlag GmbH",
+    "link": "http://www.cornelsen.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Deloitte GmbH",
+    "link": "http://www2.deloitte.com/de",
+    "n_o_jobs": "24"
+  },
+  {
+    "company": "Deutsche Bahn",
+    "link": "https://www.bahn.de/",
+    "n_o_jobs": "7"
+  },
+  {
+    "company": "Deutsche Bank",
+    "link": "http://www.db.com/",
+    "n_o_jobs": "16"
+  },
+  {
+    "company": "Deutsche Bundesbank",
+    "link": "http://www.bundesbank.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Digitas Pixelpark",
+    "link": "http://www.digitaspixelpark.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Ecosia",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "EU-Startups",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Experience One AG",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Factor Eleven",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Factor Eleven GmbH",
+    "link": "http://www.factor-eleven.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "FactoryPal",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Flix",
+    "link": "https://www.flixbus.com/",
+    "n_o_jobs": "9"
+  },
+  {
+    "company": "FlixBus",
+    "link": "https://www.flixbus.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "FlixBus GmbH",
+    "link": "https://www.flixbus.com/",
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "FORSA Gesellschaft für Sozialforschung und statistische Analysen mbH",
+    "link": "https://omninet.forsa.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Free2move",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Gesellschaft zur Verwertung von Leistungsschutzrechten mbH",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Goldmarie Finanzen GmbH",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Good Hood GmbH / nebenan",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Good Hood GmbH / nebenan.de",
+    "link": "http://nebenan.de/",
+    "n_o_jobs": "6"
+  },
+  {
+    "company": "GreenStone Energy GmbH",
+    "link": "http://www.greenstone-energy.de/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Gymondo GmbH",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Haensel AMS",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Harvey Nash-DE",
+    "link": "http://www.harveynash.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Hashtag You",
+    "link": "http://www.hashtag-you.com/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "HelloFresh",
+    "link": "http://www.hellofreshgroup.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Hochschule für Technik und Wirtschaft Berlin",
+    "link": "https://www.htw-berlin.de/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "HotelFriend Service GmbH",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "IamExpat Media",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "IAV GmbH Ingenieurgesellschaft Auto und Verkehr",
+    "link": "http://www.iav.com/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "ICE",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "idalab",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "idealo internet GmbH",
+    "link": "http://www.idealo.de/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "init AG",
+    "link": "http://www.init.de/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "JCFINCH",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "KA Resources Recruitment SL",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Kassenärztliche Bundesvereinigung (KBV)",
+    "link": "http://www.kbv.de/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Kassenärztliche Bundesvereinigung KdöR",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "KBV Kassenärztliche Bundesvereinigung",
+    "link": "http://www.kbv.de/",
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Kess Berlin GmbH",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Konrad-Zuse-Zentrum für Informationstechnik Berlin",
+    "link": "http://www.zib.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Land Berlin",
+    "link": null,
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "LeaseRad GmbH",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Leibniz-Institut für Zoo- und Wildtierforschung",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Levy Associates Ltd",
+    "link": "http://www.levy.eu.com/",
+    "n_o_jobs": "5"
+  },
+  {
+    "company": "Lidl Stiftung & Co KG",
+    "link": "http://www.lidl-info.com/cps/rde/SID-9C9B8240-2583F8E3/lsp/hs.xsl/imprint.html",
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Linnk Group",
+    "link": "http://www.linnk.co.uk/",
+    "n_o_jobs": "6"
+  },
+  {
+    "company": "Lloyds Bank – Bank of Scotland",
+    "link": "http://www.bankofscotland.co.uk/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Media Impact GmbH & Co. KG",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Momenterie",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Moyyn",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Multitude",
+    "link": "http://www.multitude.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Native Instruments",
+    "link": "http://www.native-instruments.com/",
+    "n_o_jobs": "6"
+  },
+  {
+    "company": "PhotonicNet GmbH",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Photonics BW e.V.",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Pinterest",
+    "link": "http://www.pinterest.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "PlaceSense",
+    "link": "http://www.placense.com/",
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Porsche",
+    "link": "https://www.porsche.com/",
+    "n_o_jobs": "6"
+  },
+  {
+    "company": "Prognos AG",
+    "link": "http://www.prognos.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Publicis Groupe",
+    "link": "http://www.publicisgroupe.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "PwC Deutschland",
+    "link": "http://www.pwc.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "PŸUR",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Ratepay GmbH",
+    "link": "http://www.ratepay.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Recare Deutschland GmbH",
+    "link": "http://www.recaresolutions.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "RepRisk AG",
+    "link": "http://www.reprisk.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "RociFi",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "RYDES",
+    "link": null,
+    "n_o_jobs": "6"
+  },
+  {
+    "company": "S-Kreditpartner GmbH",
+    "link": "http://www.s-kreditpartner.de/",
+    "n_o_jobs": "4"
+  },
+  {
+    "company": "Sales Impact GmbH",
+    "link": null,
+    "n_o_jobs": "5"
+  },
+  {
+    "company": "SAP",
+    "link": "http://www.sap.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Siemens",
+    "link": "http://www.siemens.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Siemens Energy",
+    "link": "http://www.siemens-energy.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Signify Technology",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "sms Consulting GmbH",
+    "link": "http://www.sms-consulting.de/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "SOMI Solutions GmbH",
+    "link": null,
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "SRH Hochschule Heidelberg",
+    "link": "https://www.srh-hochschule-heidelberg.de/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "StartSteps",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "StartSteps Digital Education GmbH",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Stifterverband für die Deutsche Wissenschaft e.V.",
+    "link": "https://www.stifterverband.org/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "StudentJob",
+    "link": null,
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "TELUS International AI Inc.",
+    "link": "http://www.telusinternational.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Telus International Philippines",
+    "link": "http://www.telusinternational.com/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Verdane Advisors GmbH",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Vivantes Netzwerk für Gesundheit GmbH",
+    "link": "http://www.vivantes-international.com/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Workwise GmbH",
+    "link": "http://www.workwise.io/",
+    "n_o_jobs": "2"
+  },
+  {
+    "company": "Würth Elektronik Gruppe",
+    "link": "http://www.we-online.com/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "Yara",
+    "link": null,
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Yara International",
+    "link": "http://www.yara.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "Zalando",
+    "link": "https://corporate.zalando.com/",
+    "n_o_jobs": "3"
+  },
+  {
+    "company": "ZDF Digital",
+    "link": null,
+    "n_o_jobs": "6"
+  },
+  {
+    "company": "Zenjob",
+    "link": "http://zenjob.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "ZENJOB",
+    "link": "http://zenjob.de/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "zero44",
+    "link": "http://www.zero44.eu/",
+    "n_o_jobs": "1"
+  },
+  {
+    "company": "ZUMA",
+    "link": "http://www.zumarestaurant.com/",
+    "n_o_jobs": "2"
+  }
+]
