@@ -187,15 +187,15 @@ So globally Python, R and SQL seem very decent earners and safe bets, with Hadoo
 Here Programming skills seems to be held less highly in regard; Pandas and Databricks are strong showings despite not being sought after quite as frequently. Their integration into larger frameworks however (Python and Azure) makes them less of fundamental items instead pointing at demand from companies to fill roles specific to their data stacks' requirements.
 
 ### Another way to optimize?
-Lastly I plugged in Luke Barousse's Chat GPT4 assistant for a Pivoting operation which due to th emass of data fell flat in Power BI.
-While I had to troubleshoot for  afew minutes it still gave a pretty good piece of code to start working on.
-What I wanted to to was pivoting the skills for each job posting into columns. While qurying I had found out that some vacancies had up to 50 or more skill items. I chose to stick with a maximum of nine skills which I sorted.
+Lastly I plugged in Luke Barousse's Chat GPT4 assistant for a Pivoting operation which due to the mass of data fell flat in Power BI.
+While I had to troubleshoot for a few minutes it still gave me a pretty good piece of code to start working with.
+What I wanted to do was pivoting the skills for each job posting into new columns. While querying I had found out that some vacancies had up to 50 or more skill items. I chose to stick with a maximum of nine skills which I sorted.
 
 ```sql
 -- I wanted a Table so I thought of adding this:
 CREATE TABLE skills_to_job_top_9_dim AS
---Pivoting skills to append them to job_id
---  Step 1: Identify and rank the skills for each job
+-- Pivoting skills to append them to job_id
+-- Step 1: Identify and rank the skills for each job
 WITH RankedSkills AS (
     SELECT 
         sjd.job_id,
@@ -232,33 +232,33 @@ ORDER BY
 
 ```
 
- I stuck with the overall spirit and fed the results to **Power BI** 's Key Influencer tool.
+ I stuck with the overall AI-helper- spirit and fed the results to **Power BI** 's Key Influencer tool.
 
  And although not entirely comprehensive, the strongest predictor for a lower income seemed to be one's first skill being Excel AND one' second skill being NOT Python.
 
  ![Top Segments Lower Income](Assets/9-TopSegments.PNG)
 
-With 15K difference to average - ouch!
+With 15K difference to the average - ouch! Considering how wideley used these two tools are, this is a significant finding.
 
-On the other end of the spectrum a number of skills can help increase one's income. The one most widely sought after tool here (Python) as a second skill is likely to increase ones salary by 8.6K !
+On the other end of the spectrum a number of skills can help increase one's income. The one most widely sought after tool among the ones named below (Python) as a second skill is likely to increase ones salary by 8.6K !
 
-![Key Influencers INcreased Salary](Assets/9-KeyInfluencers.PNG)
+![Key Influencers Increased Salary](Assets/9-KeyInfluencers.PNG)
 
 And While PostgreSQL shows an increase of 67.8K when held as a no. 6 skill - this seems to be an unlikely bet to make.
 
 # What I learned
 Structured workflow with a side by side usage of PostgrSQL, VSCode to run SQL and Power BI with the SQL-database integrated live.
-This was my most substantial Analytics-kin-of stack so far without major weaknesses or import/Transfer bottlenecks in the pipeline.
-Th eproject strengthened my overall everyday command of SQL as well as the integrated case-by-case usage of the best tool for each job at hand.
+This was my most substantial Analytics-kind-of stack so far without major weaknesses or import/Transfer bottlenecks in the pipeline.
+The project strengthened my overall everyday command of SQL as well as the integrated case-by-case usage of the best tools for each job at hand.
 
 # Conclusions
 ## Insights
-The optimal single skill to have is probably Python as a second skill. It is predictive to increase one's salary, it is most predictive to lower one's salary if one doesn't have it as a second skill. Python is among the most sought after skill type and a strong single item within its peer group.
+The optimal single skill to have is probably **Python** as a second skill. It is predictive to increase one's salary, it is most predictive to lower one's salary if one doesn't have it as a second skill. Python is among the most sought after skill type and a strong single item within its peer group. It joins well with some of the best paying frameworks (Pandas et al.) and provides great jumping off opportunities into Machine Learning.
 
-SQL is the single most prevalent skill requested in a huge number of openings and it seems very predictive of job success overall since it also scores well on the salary board.
+SQL is the single most prevalent skill requested in a huge number of openings and it seems very predictive of job success overall since it also scores okay on the salary board.
 
-The big analytics- and visualization-tools (Tableau and Power BI) are showing strong correlation to job success overall with a great number of analyst roles.
+The big analytics- and visualization-tools (Tableau and Power BI) are showing strong correlation to job success overall with a great number of analyst roles open in 2023.
 
 Cloud service skills (Azure, AWS) and data lake solutions (Hadoop, Snowflake) are strong items to have in one's personal skill stack as a data analyst moving forward.
 
-While to work in Berlin one would find less Business Analytics roles labeled as Data Analysis but instead shows a much stonger focus on statistics and more complex analyses (SAS) or more sophisticated stack solutions (Pandas, Databricks) whilst more common coding skills like SQL are not held in high regard, considering job openings as well as salaries.
+While to work in Berlin one would find less Business Analytics funcions in roles labeled Data Analysis but instead a much stonger focus is on statistics and more complex analyses (SAS) or more sophisticated stack solutions (Pandas, Databricks) whilst more common coding skills like SQL are not held in high regard, considering job openings as well as salaries.
