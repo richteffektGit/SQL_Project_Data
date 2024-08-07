@@ -105,7 +105,7 @@ When filtering for insight in **Power BI** I decided to order the 15 most freque
 
 ![Top Paying and Highly Sought after Skills](Assets/2-top_paying_jobs.PNG)
 
-As we can see server and cloud infrastructure skills are frequently looked for and pay well with code languages ranking overall high as well.
+As we can see server- and cloud-infrastructure skills are frequently looked for and pay well with code languages ranking overall high as well.
 
 
 ### Which skills are in highest demand overall?
@@ -134,7 +134,7 @@ Again switching to **Power BI** for a graphic representation and filtering for t
 ![Most sought after skills near me](Assets/3-5-most-frequent-skills.PNG)
 
 And if we look at the data structured by their broader types and by the total number of job postings SQL, Python and R - the languages most prevalent in Data Analysis are in high demand next to the widely used analyst tools (Excel, Power BI and Tableau).
-The total request number of Cloud-tool-savvy job offerings is quite distant with Azure, the single most requested Cloud toool only 11% as frequent as SQL the overall most requested skill.
+The total request number of Cloud-tool-savvy job offerings is much lower with Azure, the single most requested Cloud tool only 11% as frequently looked for as SQL, the overall most requested skill.
 The first amongst the database tools is Sql-Server on a distant 16th overall rank.
 
 When inspecting for how weighted the category entries are we can see that Cloud tools are very evenly distributed among one another whereas the Programming and Analyst tools clearly "lump" at the most popular suites.
@@ -174,13 +174,15 @@ GROUP BY d_a_skills.skills_to_job
 ORDER BY salary_per_skill DESC
 ```
 
-When plugging the insights into **Power BI** ignoring the Other-category that have very few actual vacancies we can see th etop items from each group:
+When plugging the insights into **Power BI** ignoring the *Other*-category with very few actual vacancies we can see the top items from each group:
 
 ![Salaries by Skills in Requested Categories](Assets/4-OPtimalSkills.PNG)
 
 
-So while Python and SQL are less highly paid than Spark or Redshift they are looked after with a much, much greater frequency.
-So globally Python, R and SQL seem very decent earners and safe bets, with Hadoop, Snowflake and the Cloud tools AWS and Azure showing strong as well how's the situation for job openings available to me, Data Analyst jobs in Berlin and Remote?
+So while Python and SQL offer lower pay than Spark or Redshift they are looked for with a much, much greater frequency.
+So globally Python, R and SQL seem very decent, safe bets with Hadoop, Snowflake and the Cloud tools AWS and Azure showing strong as well.
+
+Now, how's the situation for job openings available to me, Data Analyst jobs in Berlin and Remote?
 
 ![Jobs For Me by Skills, D.A.-profile and at Home](Assets/4_5_-OPtimalSkills_Boerlinn.PNG)
 
