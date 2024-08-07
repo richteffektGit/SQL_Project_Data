@@ -179,7 +179,7 @@ When plugging the insights into **Power BI** ignoring the *Other*-category with 
 ![Salaries by Skills in Requested Categories](Assets/4-OPtimalSkills.PNG)
 
 
-So while Python and SQL offre lower pay than Spark or Redshift they are looked for with a much, much greater frequency.
+So while Python and SQL offer lower pay than Spark or Redshift they are looked for with a much, much greater frequency.
 So globally Python, R and SQL seem very decent, safe bets with Hadoop, Snowflake and the Cloud tools AWS and Azure showing strong as well.
 
 Now, how's the situation for job openings available to me, Data Analyst jobs in Berlin and Remote?
