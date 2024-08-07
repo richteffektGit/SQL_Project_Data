@@ -109,7 +109,7 @@ As we can see server and cloud infrastructure skills are frequently looked for a
 
 ### Which skills are in highest demand overall?
 
-To learn how this applies to any lessons I can tak efrom the insights gained so far, I wanted to learn which opportunities might be there for me. Bein located in Berlin, Germany I queried for the most frequently sought after skills from postings for jobs near me or to work from home.
+To learn how this applies to any lessons I can take from the insights gained so far, I wanted to learn which opportunities might be there for me. Being located in Berlin, Germany I queried for the most frequently sought after skills from postings for jobs near me or to work from home.
 
 ```sql
 SELECT
@@ -127,22 +127,22 @@ HAVING COUNT (job_postings_fact.job_id) > 10
 ORDER BY n_o_jobs DESC
 ```
 
-Again switching to **Power BI** for a graphic representation and filtering fot the Top 15 skills in Data Jobs available to me.
+Again switching to **Power BI** for a graphic representation and filtering for the Top 15 skills in Data Jobs available to me.
 
 
 ![Most sought after skills near me](Assets/3-5-most-frequent-skills.PNG)
 
 And if we look at the data structured by their broader types and by the total number of job postings SQL, Python and R - the languages most prevalent in Data Analysis are in high demand next to the widely used analyst tools (Excel, Power BI and Tableau).
-The total request number of Cloud tool savy job offerings is quite distant with Azure, the single most requested Cloud toool only 11% as frequent as SQL the overall most requested skill.
-The first amongst the database tools is Sql Server on a distant 16th overall rank.
+The total request number of Cloud-tool-savvy job offerings is quite distant with Azure, the single most requested Cloud toool only 11% as frequent as SQL the overall most requested skill.
+The first amongst the database tools is Sql-Server on a distant 16th overall rank.
 
-When inspecting for how weighted the category entries are we can see that Cloud tools are very evenly distributed whereas th eProgramming and Analyst tools clearly "lump" at the most popular suites.
+When inspecting for how weighted the category entries are we can see that Cloud tools are very evenly distributed among one another whereas the Programming and Analyst tools clearly "lump" at the most popular suites.
 
 ![Types of Skills and their distribution](Assets/3-6-most-frequent-skills.PNG)
 
 ### Optimal Skills to Learn
 With what we know already, what are the best skills to learn? - highly sought after and in great demand - as well as providing great income opportunity?
-Well - let's inspect the following: Which skills are Frequently looked for and what is their average payout?
+Well - let's inspect the following: Which skills are Frequently looked for and what is their average pay?
 
 ```sql
 WITH d_a_skills AS
@@ -172,14 +172,17 @@ FROM d_a_skills
 GROUP BY d_a_skills.skills_to_job
 ORDER BY salary_per_skill DESC
 ```
+
 When plugging the insights into **Power BI** ignoring the Other-category that have very few actual vacancies we can see th etop items from each group:
 
 ![Salaries by Skills in Requested Categories](Assets/4-OPtimalSkills.PNG)
+
 
 So while Python and SQL are less highly paid than Spark or Redshift they are looked after with a much, much greater frequency.
 So globally Python, R and SQL seem very decent earners and safe bets, with Hadoop, Snowflake and the Cloud tools AWS and Azure showing strong as well how's the situation for job openings available to me, Data Analyst jobs in Berlin and Remote?
 
 ![Jobs For Me by Skills, D.A.-profile and at Home](Assets/4_5_-OPtimalSkills_Boerlinn.PNG)
+
 
 Here Programming skills seems to be held less highly in regard; Pandas and Databricks are strong showings despite not being sought after quite as frequently. Their integration into larger frameworks however (Python and Azure) makes them less of fundamental items instead pointing at demand from companies to fill roles specific to their data stacks' requirements.
 
