@@ -102,7 +102,7 @@ ORDER BY yearly_salary DESC
 
 When filtering for insight in **Power BI** I decided to order the 15 most frequently named skills and rank them based on the average salary of the positions.
 
-![Top Paying and Highly Sought after Skills](Assets\Graphics\2-top_paying_jobs.PNG)
+![Top Paying and Highly Sought after Skills](Assets\2-top_paying_jobs.PNG)
 
 As we can see server and cloud infrastructure skills are frequently looked for and pay well with code languages ranking overall high as well.
 
@@ -130,7 +130,7 @@ ORDER BY n_o_jobs DESC
 Again switching to **Power BI** for a graphic representation and filtering fot the Top 15 skills in Data Jobs available to me.
 
 
-![Most sought after skills near me](Assets\Graphics\3-5-most-frequent-skills.PNG)
+![Most sought after skills near me](Assets\3-5-most-frequent-skills.PNG)
 
 And if we look at the data structured by their broader types and by the total number of job postings SQL, Python and R - the languages most prevalent in Data Analysis are in high demand next to the widely used analyst tools (Excel, Power BI and Tableau).
 The total request number of Cloud tool savy job offerings is quite distant with Azure, the single most requested Cloud toool only 11% as frequent as SQL the overall most requested skill.
@@ -138,7 +138,7 @@ The first amongst the database tools is Sql Server on a distant 16th overall ran
 
 When inspecting for how weighted the category entries are we can see that Cloud tools are very evenly distributed whereas th eProgramming and Analyst tools clearly "lump" at the most popular suites.
 
-![Types of Skills and their distribution](Assets\Graphics\3-6-most-frequent-skills.PNG)
+![Types of Skills and their distribution](Assets\3-6-most-frequent-skills.PNG)
 
 ### Optimal Skills to Learn
 With what we know already, what are the best skills to learn? - highly sought after and in great demand - as well as providing great income opportunity?
@@ -174,12 +174,12 @@ ORDER BY salary_per_skill DESC
 ```
 When plugging the insights into **Power BI** ignoring the Other-category that have very few actual vacancies we can see th etop items from each group:
 
-![Salaries by Skills in Requested Categories](Assets\Graphics\4-OPtimalSkills.PNG)
+![Salaries by Skills in Requested Categories](Assets\4-OPtimalSkills.PNG)
 
 So while Python and SQL are less highly paid than Spark or Redshift they are looked after with a much, much greater frequency.
 So globally Python, R and SQL seem very decent earners and safe bets, with Hadoop, Snowflake and the Cloud tools AWS and Azure showing strong as well how's the situation for job openings available to me, Data Analyst jobs in Berlin and Remote?
 
-![Jobs For Me by Skills, D.A.-profile and at Home](Assets\Graphics\4_5_-OPtimalSkills_Boerlinn.PNG)
+![Jobs For Me by Skills, D.A.-profile and at Home](Assets\4_5_-OPtimalSkills_Boerlinn.PNG)
 
 Here Programming skills seems to be held less highly in regard; Pandas and Databricks are strong showings despite not being sought after quite as frequently. Their integration into larger frameworks however (Python and Azure) makes them less of fundamental items instead pointing at demand from companies to fill roles specific to their data stacks' requirements.
 
@@ -233,13 +233,13 @@ ORDER BY
 
  And although not entirely comprehensive, the strongest predictor for a lower income seemed to be one's first skill being Excel AND one' second skill being NOT Python.
 
- ![Top Segments Lower Income](Assets\Graphics\9-TopSegments.PNG)
+ ![Top Segments Lower Income](Assets\9-TopSegments.PNG)
 
 With 15K difference to average - ouch!
 
 On the other end of the spectrum a number of skills can help increase one's income. The one most widely sought after tool here (Python) as a second skill is likely to increase ones salary by 8.6K !
 
-![Key Influencers INcreased Salary](Assets\Graphics\9-KeyInfluencers.PNG)
+![Key Influencers INcreased Salary](Assets\9-KeyInfluencers.PNG)
 
 And While PostgreSQL shows an increase of 67.8K when held as a no. 6 skill - this seems to be an unlikely bet to make.
 
