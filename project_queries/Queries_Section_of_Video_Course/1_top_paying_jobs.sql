@@ -1,9 +1,9 @@
 /*
-What the top paying data-analyst-job postings?
+What are the top paying data-analyst-job postings?
 
 - identify top 10 highest paying D.A. roles available remotely
 - Focus on postings with specified salaries (no Nulls!)
-Highlighgt the top paying opportunities for D.A., offering insights
+Why? - Highlight the top paying opportunities for D.A., offering insights
 */
 
 SELECT job_id,
