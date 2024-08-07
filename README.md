@@ -56,21 +56,22 @@ So, first in line from the summary above is:
  of course I would go there first: What are the top-paying data analyst jobs?
 
 ``` sql
-SELECT job_id,
+SELECT 
     job_title,
     job_location,
     company_dim.name AS company_name,
-    job_schedule_type,
-    salary_year_avg,
-    job_posted_date
+    salary_year_avg
 FROM job_postings_fact
-LEFT JOIN company_dim
-    ON job_postings_fact.company_id = company_dim.company_id
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
-    AND job_location = 'Anywhere'
+    -- AND job_location = 'Anywhere'
 ORDER BY salary_year_avg DESC
+LIMIT 10;
 ```
+
+![Highest Paying Data Analyst Jobs](Assets/1-top_paying_jobs.PNG)
+
 With the insight that the top paying remote job in the field would net me a cool 650K USD I felt I was on track! But seriously, there would be a long and arduous learning journey ahead I concluded before I could even fantasize to charge remotely anything of the kind. The next question was then:
 
 ### Which skills are the top paying?
