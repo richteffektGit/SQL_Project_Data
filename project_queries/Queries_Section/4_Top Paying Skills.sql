@@ -14,18 +14,18 @@ WITH d_a_skills AS
     INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
     WHERE job_title_short ='Data Analyst'
         AND salary_year_avg IS NOT NULL
-        AND --(job_location LIKE 'Berlin%' OR 
-            job_location = 'Anywhere'--)
+        AND (job_location LIKE 'Berlin%' OR 
+            job_location = 'Anywhere')
     GROUP BY job_title, skills_to_job,jp_fact.job_id
     )
-SELECT ROUND(AVG (salary_year_avg),0) AS salary_per_skill,
-    skills_to_job,
-    CASE WHEN COUNT (skills_to_job) BETWEEN 9 AND 20 THEN  'C_overall_requested'
+SELECT  skills_to_job,
+        ROUND(AVG (salary_year_avg),0) AS salary_per_skill,
+
+    CASE WHEN COUNT (skills_to_job) BETWEEN 9 AND 20 THEN  'C_moderately_requested'
         WHEN COUNT (skills_to_job) BETWEEN 21 AND 60 THEN  'B_well_requested'
         WHEN COUNT (skills_to_job) > 61 THEN 'A_super_requested'
     ELSE 'Other'
     END AS frequent_skills
 FROM d_a_skills
-
 GROUP BY d_a_skills.skills_to_job
 ORDER BY salary_per_skill DESC

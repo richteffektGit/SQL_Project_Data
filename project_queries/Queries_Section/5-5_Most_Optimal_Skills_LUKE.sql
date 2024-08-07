@@ -20,7 +20,7 @@ SELECT
         AND salary_year_avg IS NOT NULL
     GROUP BY main_skill_id, skills_to_job
     -- we cannot have an aggregation inside the WHERE so there's the HAVING:
-    HAVING COUNT(sj_dim.job_id) > 10
+    HAVING COUNT(sj_dim.job_id) > 9
     ORDER BY n_o_jobs DESC,
         avg_salary DESC
     LIMIT 50;
